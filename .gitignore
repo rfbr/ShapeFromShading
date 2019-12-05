@@ -1,0 +1,9 @@
+# Ignore the build and lib dirs
+build
+lib/*
+
+# Ignore any executables
+bin/*
+
+# Ignore les bails sales de Romain
+.vscode
