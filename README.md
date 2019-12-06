@@ -9,7 +9,7 @@ relief of a scene from a single picture of it. The sfs was initiated in the 60s 
 ## Modelization 
 In this project, we consider that the gray level of the image depends only on the direction of the incident light and the normal on the surface (Lambertian shading model):
 
-![equation](http://www.sciweavers.org/tex2img.php?eq=%24%24I%28x%2C%20y%29%3D%5Cboldsymbol%7BL%7D%20%5Ccdot%20%5Cboldsymbol%7Bn%7D%28x%2C%20y%29%24%24%0A&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+<img src="https://user-images.githubusercontent.com/45492759/70310074-21de1500-180f-11ea-95d9-646aaec1f8ed.png" width="200">
 
 with __I__ the intensity of the shading (usually __I__ ∈ [0; 255]), __L__ the direction of incident light and n the outgoing unit normal. The main problem for the resolution is its nonlinearity which comes simply from the normalization of __n__. Assuming that the source is in (0,0,1) ("frontal" lighting) and the intensity being maximal when __n__ and __L__ are parallel, one can rewrite the equation, after normalization, as the eikonal equation (3).
 ## Resolution 
