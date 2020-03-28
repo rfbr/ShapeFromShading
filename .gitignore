@@ -5,5 +5,5 @@ lib/*
 # Ignore any executables
 bin/*
 
-# Ignore les bails sales de Romain
+# Ignore vscode settings file
 .vscode
